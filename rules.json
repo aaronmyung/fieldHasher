@@ -1,0 +1,9 @@
+{
+    "00": [
+        { "Start": 5,  "Length": 30, "Truncate": 10, "Filter": "alpha" },
+        { "Start": 40, "Length": 20, "Truncate": 8,  "Filter": "numeric" }
+    ],
+    "01": [
+        { "Start": 10, "Length": 15, "Truncate": 6,  "Filter": "alphanumeric" }
+    ]
+}
