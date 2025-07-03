@@ -123,10 +123,10 @@ If rules specify hashing "JohnDoe" to alphanumeric, truncate to 10, and filterin
 **Q:** Why MD5?  
 **A:** Often sufficient for deterministic hashing in non-cryptographic UAT scenarios. It's fast, widely supported, and easy to implement. Some legacy systems do not support SHA-2 algorithms (like SHA-256), making MD5 a pragmatic choice. That said, SHA-256 is supported and preferred for any sensitive or forward-facing data handling.
 
-**Q:** What if my line has no matching prefix?
+**Q:** What if my line has no matching prefix?  
 **A:** It will be returned unchanged.
 
-**Q:** Can this replace fields with blanks instead of hashes?
+**Q:** Can this replace fields with blanks instead of hashes?  
 **A:** Not currently. You can add this easily in `Process-Line` by modifying the returned value.
 
 ---
